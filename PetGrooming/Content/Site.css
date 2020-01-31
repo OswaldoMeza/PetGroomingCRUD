@@ -21,4 +21,10 @@ input,
 select,
 textarea {
     max-width: 280px;
+    background-color: goldenrod;
+}
+
+.button{
+    border: double;
+    border-radius: 20% 20% 20% 20%;
 }

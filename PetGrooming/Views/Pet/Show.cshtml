@@ -5,7 +5,11 @@
 }
 
 <h2>Show Pet</h2>
+<a class="button" href="/Pet/List">Back to List</a>
+<a class="button" href="/Pet/Update/@Model.PetID">Update</a>
+<a class="button" href="/Pet/Delete/@Model.PetID">Delete</a>
 
 <div>Name : @Model.PetName</div>
 <div>Weight : @Model.Weight</div>
 <div>Species : @Model.Species.Name</div>
+<div>Notes : @Model.Notes</div>
